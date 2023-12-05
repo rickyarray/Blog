@@ -1,0 +1,16 @@
+# Mini Challenge 3
+
+## Override password reset flow (all templates)
+
+### Acceptance Criteria
+1. All templates must match the look and feel of the rest of your site.
+2. Override the `registration/password_reset_form.html` template.
+2.1. This template should allow your users to specify the email address they signed up with.
+3. Override the `registration/password_reset_done.html` template.
+3.1. This template should display a "success" message when the previous form is submitted.
+4. Override the `registration/password_reset_confirm.html` template.
+4.1. This template should render a form that allows users to set a new password.
+5. Override the `registration/password_reset_complete.html` template.
+5.1. This template should display a "success" message when a new password has been set.
+6. Override the (email subject) `registration/password_reset_subject.txt` template.
+7. Override the (email body) `registration/password_reset_email.html` template.

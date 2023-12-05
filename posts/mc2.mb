@@ -1,0 +1,13 @@
+# Mini Challenge 2
+
+## Make migrations and execute them
+
+### Acceptance Criteria
+1. Create migrations for our newly created `Post` model.
+2. Run all migrations.
+3. Register the `Post` model onto the admin panel.
+4. Create a super user.
+5. Log into the admin panel and create 3 posts.
+6. Create a `ListView` that displays all posts in an unordered list.
+6.1. Generate all necessary views, urlpatterns and templates.
+6.2. Make sure your configuration settings are updated to make this work.
