@@ -1,0 +1,29 @@
+#Mini Challenge 4
+
+## The Home and About Page
+
+1. Add these options to the navbar.
+    1. User do not need to log in to see the options.
+2. Create under Pages app the *HomePageView* using a class-based view that which inherits Django subclass *TemplateView.*
+    1. Create the *home.html* template where you describe the purpose of the system and how it is used.
+    2. Create the urlpattern and link it with the navbar. 
+3. Create under Pages app the AboutPageView using a class-based view that which inherits Django subclass *TemplateView.*
+    1. Create the *about.html* template where you describe the company to which the blog belongs, and also include a related image.
+    2. Create the urlpattern and link it with the navbar. 
+
+## Let’s do 2 ten minutes rounds.
+
+
+- [ ]  Archived and Drafts Posts
+    
+    # Mini Challenge 5
+    
+    ## Implement the Drafts and Archived section in the blog
+    
+    1. Add these options to the navbar.
+        1. Only authenticated users can access these menu options.
+    2. Create the *DraftListView* and the *ArchieveListView* you can reuse the implementation of the *PostListView* and change the filters.
+        1. The user must have logged into the system.
+        2. Add an additional filter to display only the posts that belong to the logged-in user.
+    
+    ## Let’s do 2 - 3 ten minutes rounds.
